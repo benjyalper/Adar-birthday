@@ -18,8 +18,10 @@ $("h1").on("click", function() {
             alert("מזל טוב אדרי!!");
             $("h1").text("ברוכים הבאים ליומלדת של אדר!");
             $("h1").css("background-color","lightgreen");
-            $("h1").css("transition", "font-size 4s").css("font-size", "120px")
+            $("h1").css("transition", "font-size 4s").css("font-size", "120px");
+            $("h1").after(`<img src:"./IMG_6960_2.jpg style="height: 65vh;">`);
             $(".btn1").remove();
+            
             break;
           } else {
             alert(`היי ${answer}, ידעת שלאדר יש היום יומולדת??`);
@@ -29,8 +31,8 @@ $("h1").on("click", function() {
         });
       }, 4000);
   });
-  
-  
+
+  //<img src:"./IMG_6960_2.jpg/" style="height: 65vh">
   //$(".check").css("display", "inline-block");
   
   //$("h1").after(`<button style="background-color: pink;">new</button>`);
