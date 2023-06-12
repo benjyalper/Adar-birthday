@@ -19,7 +19,7 @@ $("h1").on("click", function() {
             $("h1").text("ברוכים הבאים ליומלדת של אדר!");
             $("h1").css("background-color","lightgreen");
             $("h1").css("transition", "font-size 4s").css("font-size", "120px");
-            $("h1").after(`<div class="flex-box" style="display: flex;><img src="./IMG_6960_2.jpg" style="flex-basis: 50%; height: 65vh;"><img src="./Screenshot 2023-06-12 122219.png" style="flex-basis: 50%;"></div>`);
+            $("h1").after(`<div class="flex-box" style="display: flex;>`).after(`<img src="./IMG_6960_2.jpg" style="flex-basis: 50%; height: 65vh;">`).after(`<img src="./Screenshot 2023-06-12 122219.png" style="flex-basis: 50%; height: 65vh;">`).after(`</div>`);
             $(".btn1").remove();
             
             break;
