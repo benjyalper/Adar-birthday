@@ -23,7 +23,10 @@ $("h1").on("click", function() {
             <div class="flex-box" style="display: flex; gap: 10px; justify-content: center; background-color: lightblue;">
               <img src="./IMG_6960_2.jpg" style="flex-basis: 0; height: 65vh;">
               <img src="./Screenshot 2023-06-12 122219.png" style="flex-basis: 0; height: 65vh;">
-              <div style="flex-basis: 15%; height: 65vh; background-color: lightblue;"><p><h2>אדרדור, מזל טוב ויומולדת שמח</h2><br>מאחלים לך את כל הטוב, שתמשיך להיות כמו שאתה:<br>מקסים, טוב-לב, מצחיק, חכם ומתוק<br>אוהבים וגאים בך<br>אמא ואבא</p></div>
+              <div style="flex-basis: 15%; height: 65vh; background-color: lightblue;">
+              <h2>אדרדור, מזל טוב ויומולדת שמח</h2>
+              </div>
+              <p>מאחלים לך את כל הטוב<br>תמשיך להיות כמו שאתה:<br> מקסים, טוב-לב, מצחיק וחכם<br>אוהבים אותך וגאים בך<br>אמא ואבא</p>
             </div>
             `);
             $(".btn1").remove();

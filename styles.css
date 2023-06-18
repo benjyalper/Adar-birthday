@@ -4,11 +4,17 @@ html {
     background-color: lightblue;
 }
 
-h1 {
+h1,
+h2 {
     text-align: center;
     background-color: lightblue;
     color: #624227;
 }
+
+p {
+    text-align: center;
+}
+
 
 .check {
     height: 50px;
