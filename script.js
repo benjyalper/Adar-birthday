@@ -19,8 +19,18 @@ $("h1").on("click", function() {
             $("h1").text("ברוכים הבאים ליומלדת של אדר!");
             $("h1").css("background-color","lightgreen");
             $("h1").css("transition", "font-size 4s").css("font-size", "120px");
-            $("h1").after(`<div class="flex-box" style="display: flex;>`).after(`<img src="./IMG_6960_2.jpg" style="flex-basis: 50%; height: 65vh;">`).after(`<img src="./Screenshot 2023-06-12 122219.png" style="flex-basis: 50%; height: 65vh;">`).after(`</div>`);
+            $("h1").after(`
+            <div class="flex-box" style="display: flex; gap: 10px; justify-content: center;">
+              <img src="./IMG_6960_2.jpg" style="flex-basis: 0; height: 65vh;">
+              <img src="./Screenshot 2023-06-12 122219.png" style="flex-basis: 0; height: 65vh;">
+              <div style="flex-basis: 15%; height: 65vh; background-color: lightblue;"><p><h2>אדרדור, מזל טוב ויומולדת שמח</h2><br>מאחלים לך את כל הטוב, שתמשיך להיות כמו שאתה:<br>מקסים, טוב-לב, מצחיק, חכם ומתוק<br>אוהבים וגאים בך<br>אמא ואבא</p></div>
+            </div>
+            `);
             $(".btn1").remove();
+
+            
+
+            // after(`<div class="flex-box" style="display: flex; gap: 10px; justify-content: center;">`).after(`<img src="./IMG_6960_2.jpg" style="flex-basis: 0; height: 65vh;">`).after(`<img src="./Screenshot 2023-06-12 122219.png" flex-basis: 0; height: 65vh;">`).after(`<div style="flex-basis: 0; height: 65vh; background-color: pink;"></div>`).after(`</div>`);
             
             break;
           } else {
